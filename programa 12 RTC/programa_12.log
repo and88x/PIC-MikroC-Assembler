@@ -1,0 +1,21 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F887 -GC -DL -O11111114 -fo4 -N"C:\Users\Andres\Desktop\El resto\Pogramas MikroC\programa 12\programa_12.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\Andres\Desktop\El resto\Pogramas MikroC\programa 12\" "programa_12.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_Conversions.mcl" "__Lib_I2C_c34.mcl" "__Lib_UART_c67.mcl" "__Lib_DS1307.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	__Lib_DS1307.c
+hint: 36	1163	Variable 'HV' has been declared, but not used	__Lib_DS1307.c
+hint: 36	1163	Variable 'LV' has been declared, but not used	__Lib_DS1307.c
+diagnostics: 241	123	Compiled Successfully	__Lib_DS1307.c
+hint: 20	1164	Variable 'LV' has been eliminated by optimizer	__Lib_DS1307.c
+hint: 20	1164	Variable 'HV' has been eliminated by optimizer	__Lib_DS1307.c
+hint: 28	1164	Variable 'HV' has been eliminated by optimizer	__Lib_DS1307.c
+hint: 28	1164	Variable 'LV' has been eliminated by optimizer	__Lib_DS1307.c
+diagnostics: 0	122	Compilation Started	programa_12.c
+warning: 9	1509	Generated baud rate is 9615 bps (error = 0.16 percent)	programa_12.c
+diagnostics: 29	123	Compiled Successfully	programa_12.c
+diagnostics: 0	127	All files Compiled in 63 ms	 
+hint: 0	1144	Used RAM (bytes): 76 (22%)  Free RAM (bytes): 276 (78%)	Used RAM (bytes): 76 (22%)  Free RAM (bytes): 276 (78%)
+hint: 0	1144	Used ROM (program words): 750 (9%)  Free ROM (program words): 7442 (91%)	Used ROM (program words): 750 (9%)  Free ROM (program words): 7442 (91%)
+diagnostics: 0	125	Project Linked Successfully	programa_12.mcppi
+hint: 0	1004	COFF file successfully generated	COFF file successfully generated
+diagnostics: 0	128	Linked in 530 ms	 
+diagnostics: 0	129	Project 'programa_12.mcppi' completed: 749 ms	 
+diagnostics: 0	103	Finished successfully: 22 abr 2016, 10:19:28	programa_12.mcppi

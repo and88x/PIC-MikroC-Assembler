@@ -1,0 +1,6 @@
+main
+	SPI1_Init
+	SPI1_Write
+	SPI1_Read
+	Button
+		Delay_500us

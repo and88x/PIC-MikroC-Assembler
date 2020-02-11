@@ -1,0 +1,16 @@
+0	1	mikroCdsPIC.exe -MSF -DBG -pP33FJ12GP202 -GC -DL -SSA -O11111114 -fo10 -N"C:\Users\Usuario\Dropbox\materias\microprocesadores 2\programas\programa 26 Temporizadores\timer 2 y timer 3\programa26f.mcpds" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\uses\" -SP"C:\Users\Usuario\Dropbox\materias\microprocesadores 2\programas\programa 26 Temporizadores\timer 2 y timer 3\" -SP"C:\Users\Usuario\Dropbox\materias\microprocesadores 2\programas clase\programa 26 Temporizadores\timer 2 y timer 3\" "programa26f.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Usuario\Dropbox\materias\microprocesadores 2\programas clase\programa 26 Temporizadores\timer 2 y timer 3'	 
+diagnostics: 0	121	Loading...	 
+diagnostics: 0	126	All files Preprocessed in 32 ms	 
+diagnostics: 0	122	Compilation Started	programa26f.c
+hint: 0	1004	interrupt handler (Timer23Int at 0x0022)	programa26f.c
+diagnostics: 16	123	Compiled Successfully	programa26f.c
+diagnostics: 0	127	All files Compiled in 15 ms	 
+hint: 0	1144	Used RX (bytes): 20 (62%)   Free RX (bytes): 12 (38%)	Used RX (bytes): 20 (62%)   Free RX (bytes): 12 (38%)
+hint: 0	1144	Static RAM (bytes): 0   Dynamic RAM (bytes): 1024	Static RAM (bytes): 0   Dynamic RAM (bytes): 1024
+hint: 0	1144	Used ROM (bytes): 596 (7%)  Free ROM (bytes): 7596 (93%)	Used ROM (bytes): 596 (7%)  Free ROM (bytes): 7596 (93%)
+diagnostics: 0	125	Project Linked Successfully	programa26f.mcpds
+hint: 0	1004	COFF file successfully generated	COFF file successfully generated
+diagnostics: 0	128	Linked in 94 ms	 
+diagnostics: 0	129	Project 'programa26f.mcpds' completed: 187 ms	 
+diagnostics: 0	103	Finished successfully: 19 jun 2013, 08:51:31	programa26f.mcpds

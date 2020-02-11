@@ -1,0 +1,19 @@
+0	1	mikroCdsPIC.exe -MSF -DBG -pP33FJ12GP202 -DL -SSA -O11111114 -fo10 -N"C:\Users\Andres\Desktop\El resto\Pogramas MikroC\programa 26 Temporizadores\timer 2 y timer 3\programa26e.mcpds" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for dsPIC\uses\" -SP"C:\Users\Andres\Desktop\El resto\Pogramas MikroC\programa 26 Temporizadores\timer 2 y timer 3\" -SP"C:\Program Files (x86)\Mikroelektronika\mikroC PRO for dsPIC\defs\" -SP"C:\Program Files (x86)\Mikroelektronika\mikroC PRO for dsPIC\uses\" -SP"C:\Users\DELL\Dropbox\materias\microprocesadores 2\programas\programa 26 Temporizadores\timer 2 y timer 3\" -SP"C:\Users\Usuario\Dropbox\materias\microprocesadores 2\programas\programa 26 Temporizadores\timer 2 y timer 3\" -SP"C:\Users\DELL\Dropbox\materias\microprocesadores 2\programas clase\programa 26 Temporizadores\timer 2 y timer 3\" "programa26e.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Program Files (x86)\Mikroelektronika\mikroC PRO for dsPIC\defs'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Program Files (x86)\Mikroelektronika\mikroC PRO for dsPIC\uses'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\DELL\Dropbox\materias\microprocesadores 2\programas\programa 26 Temporizadores\timer 2 y timer 3'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Usuario\Dropbox\materias\microprocesadores 2\programas\programa 26 Temporizadores\timer 2 y timer 3'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\DELL\Dropbox\materias\microprocesadores 2\programas clase\programa 26 Temporizadores\timer 2 y timer 3'	 
+diagnostics: 0	121	Loading...	 
+diagnostics: 0	122	Compilation Started	programa26e.c
+hint: 0	1004	interrupt handler (Timer23Int at 0x0024)	programa26e.c
+diagnostics: 24	123	Compiled Successfully	programa26e.c
+warning: 23	1519	Logical expression is always: 'False'	programa26e.c
+diagnostics: 0	127	All files Compiled in 46 ms	 
+hint: 0	1144	Used RX (bytes): 20 (62%)   Free RX (bytes): 12 (38%)	Used RX (bytes): 20 (62%)   Free RX (bytes): 12 (38%)
+hint: 0	1144	Static RAM (bytes): 0   Dynamic RAM (bytes): 1024	Static RAM (bytes): 0   Dynamic RAM (bytes): 1024
+hint: 0	1144	Used ROM (bytes): 594 (7%)  Free ROM (bytes): 7598 (93%)	Used ROM (bytes): 594 (7%)  Free ROM (bytes): 7598 (93%)
+diagnostics: 0	125	Project Linked Successfully	programa26e.mcpds
+diagnostics: 0	128	Linked in 110 ms	 
+diagnostics: 0	129	Project 'programa26e.mcpds' completed: 281 ms	 
+diagnostics: 0	103	Finished successfully: 05 jul 2016, 10:40:11	programa26e.mcpds

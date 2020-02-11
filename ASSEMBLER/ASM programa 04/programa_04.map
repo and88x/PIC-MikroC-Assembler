@@ -1,0 +1,117 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Sun Mar 27 21:31:40 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                VEC_RESET       code   0x000000    program   0x000006
+                  VEC_INT       code   0x000004    program   0x000006
+                   .cinit    romdata   0x000007    program   0x000004
+                    .code       code   0x000009    program   0x000202
+.config_2007_PROGRAMA04.O       code   0x002007    program   0x000002
+.config_2008_PROGRAMA04.O       code   0x002008    program   0x000002
+                   .udata      udata   0x000020       data   0x000007
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x000109      
+                            0x002007    0x002008      
+            267 out of 8455 program addresses used, program memory utilization is 3%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  DISPLAY   0x000009    program     extern C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+                  HEX2BCD   0x0000c1    program     extern C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+                   INICIO   0x000058    program     static C:\Users\Andres\Desktop\El resto\programa 04\programa04.asm
+             INTERRUPCION   0x0000a0    program     static C:\Users\Andres\Desktop\El resto\programa 04\programa04.asm
+                    Paso3   0x000102    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+                   Paso_2   0x0000c8    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+                   SALIDA   0x0000ba    program     static C:\Users\Andres\Desktop\El resto\programa 04\programa04.asm
+                Siguiente   0x00000f    program     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+                    Tabla   0x000046    program     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+              _.code_0009   0x000012    program     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+              _.code_000A   0x0000cb    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_000B   0x0000cc    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_000C   0x000015    program     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+              _.code_000D   0x0000ce    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_0020   0x0000e1    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_0020   0x000029    program     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+              _.code_0021   0x0000e2    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_0023   0x0000e4    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_0024   0x00002d    program     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+              _.code_0026   0x00002f    program     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+              _.code_0028   0x0000e9    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_0029   0x0000ea    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_002B   0x0000ec    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_002F   0x000038    program     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+              _.code_002F   0x0000f0    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_0030   0x0000f1    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_0031   0x00003a    program     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+              _.code_0032   0x0000f3    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_003B   0x0000fc    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_003C   0x0000fd    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_003E   0x0000ff    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_0045   0x000106    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+                    bucle   0x00008a    program     static C:\Users\Andres\Desktop\El resto\programa 04\programa04.asm
+            ___savePCLATH   0x000024       data     static C:\Users\Andres\Desktop\El resto\programa 04\programa04.asm
+            ___saveSTATUS   0x000023       data     static C:\Users\Andres\Desktop\El resto\programa 04\programa04.asm
+                 ___saveW   0x000025       data     static C:\Users\Andres\Desktop\El resto\programa 04\programa04.asm
+                  barrido   0x000022       data     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+                 contador   0x000026       data     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+                   digito   0x000021       data     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+                   indice   0x000020       data     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  DISPLAY   0x000009    program     extern C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+                Siguiente   0x00000f    program     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+              _.code_0009   0x000012    program     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+              _.code_000C   0x000015    program     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+              _.code_0020   0x000029    program     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+              _.code_0024   0x00002d    program     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+              _.code_0026   0x00002f    program     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+              _.code_002F   0x000038    program     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+              _.code_0031   0x00003a    program     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+                    Tabla   0x000046    program     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+                   INICIO   0x000058    program     static C:\Users\Andres\Desktop\El resto\programa 04\programa04.asm
+                    bucle   0x00008a    program     static C:\Users\Andres\Desktop\El resto\programa 04\programa04.asm
+             INTERRUPCION   0x0000a0    program     static C:\Users\Andres\Desktop\El resto\programa 04\programa04.asm
+                   SALIDA   0x0000ba    program     static C:\Users\Andres\Desktop\El resto\programa 04\programa04.asm
+                  HEX2BCD   0x0000c1    program     extern C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+                   Paso_2   0x0000c8    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_000A   0x0000cb    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_000B   0x0000cc    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_000D   0x0000ce    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_0020   0x0000e1    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_0021   0x0000e2    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_0023   0x0000e4    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_0028   0x0000e9    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_0029   0x0000ea    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_002B   0x0000ec    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_002F   0x0000f0    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_0030   0x0000f1    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_0032   0x0000f3    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_003B   0x0000fc    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_003C   0x0000fd    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_003E   0x0000ff    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+                    Paso3   0x000102    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+              _.code_0045   0x000106    program     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+                   indice   0x000020       data     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+                   digito   0x000021       data     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+                  barrido   0x000022       data     static C:\Users\Andres\Desktop\El resto\programa 04\display.asm
+            ___saveSTATUS   0x000023       data     static C:\Users\Andres\Desktop\El resto\programa 04\programa04.asm
+            ___savePCLATH   0x000024       data     static C:\Users\Andres\Desktop\El resto\programa 04\programa04.asm
+                 ___saveW   0x000025       data     static C:\Users\Andres\Desktop\El resto\programa 04\programa04.asm
+                 contador   0x000026       data     static C:\Users\Andres\Desktop\El resto\programa 04\hex2bsd.asm
+
+

@@ -1,0 +1,16 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4620 -GC -DL -O11111114 -fo40 -N"C:\Users\Remigio Guevara\Dropbox\tesis MAESTRIA\electronica\tesis 1 mezclador inteligente\programa con PIC18F4620\programa 18.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\Remigio Guevara\Dropbox\tesis MAESTRIA\electronica\tesis 1 mezclador inteligente\programa con PIC18F4620\" -SP"C:\Users\Remigio Guevara\Dropbox\materias\microcontroladores de gama alta\compartir mar 2016 ago 2016\clase\programa 18\" "programa 18.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CStdlib.mcl" "__Lib_Button.mcl" "__Lib_SPI_c345.mcl"	 
+hint: 0	1139	Available RAM: 3947 [bytes], Available ROM: 65536 [bytes]	 
+diagnostics: 0	126	All files Preprocessed in 63 ms	 
+diagnostics: 0	122	Compilation Started	programa 18.c
+warning: 90	1503	Result is not defined in function: 'interrupt'	programa 18.c
+warning: 144	1505	Suspicious pointer conversion	programa 18.c
+diagnostics: 163	123	Compiled Successfully	programa 18.c
+hint: 19	1164	Variable 'temp' has been eliminated by optimizer	programa 18.c
+diagnostics: 0	127	All files Compiled in 78 ms	 
+hint: 0	1144	Used RAM (bytes): 151 (4%)  Free RAM (bytes): 3796 (96%)	Used RAM (bytes): 151 (4%)  Free RAM (bytes): 3796 (96%)
+hint: 0	1144	Used ROM (bytes): 4708 (7%)  Free ROM (bytes): 60828 (93%)	Used ROM (bytes): 4708 (7%)  Free ROM (bytes): 60828 (93%)
+diagnostics: 0	125	Project Linked Successfully	programa 18.mcppi
+hint: 0	1004	COFF file successfully generated	COFF file successfully generated
+diagnostics: 0	128	Linked in 391 ms	 
+diagnostics: 0	129	Project 'programa 18.mcppi' completed: 563 ms	 
+diagnostics: 0	103	Finished successfully: 17 Jun. 2016, 15:22:36	programa 18.mcppi

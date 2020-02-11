@@ -1,0 +1,10 @@
+main
+	I2C1_Init
+	I2C1_Start
+		I2C1_Is_Idle
+	I2C1_Wr
+	I2C1_Repeated_Start
+	I2C1_Rd
+	I2C1_Stop
+	Button
+		Delay_500us

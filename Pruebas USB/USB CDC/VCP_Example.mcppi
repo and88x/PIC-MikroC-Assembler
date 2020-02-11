@@ -1,0 +1,55 @@
+[DEVICE]
+Name=P18F4550
+Clock=48000000
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=VCP_Example.c
+[USE_EEPROM]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=2000
+[FILES]
+Count=2
+File0=VCP_Descriptor.c
+File1=VCP_Example.c
+[BINARIES]
+Count=0
+[IMAGES]
+Count=1
+ActiveImageIndex=0
+[OPENED_FILES]
+Count=1
+File0=VCP_Example.c
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=5
+Path0=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\
+Path1=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\
+Path2=C:\Users\Andres\Desktop\El resto\Pogramas MikroC\EjemplosMios\USB CDC\
+Path3=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\USB_Device_PIC\Examples\PIC18F4550\Virtual COM Port\
+Path4=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\USB_Device_PIC\Uses\
+[HEADER_PATH]
+Count=0
+[HEADERS]
+Count=0
+[PLDS]
+Count=0
+[Useses]
+Count=2
+File0=USB_Device_CDClass_PIC18F
+File1=USB_Device_PIC18F
+[EXPANDED_NODES]
+Node0=Image Files
+Count=1

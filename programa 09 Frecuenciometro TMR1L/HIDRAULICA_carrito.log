@@ -1,0 +1,18 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F887 -GC -DL -O11111114 -fo8 -N"C:\Users\Andres\Desktop\programa 09\HIDRAULICA_carrito.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\Andres\Desktop\programa 09\" -SP"C:\Users\Remigio Guevara\Dropbox\materias\microprocesadores y microcontroladores\sep2015_mar2016\compartir\clase\programa 18\" -SP"C:\Users\Andres\Dropbox\compartir\clase\programa 18\" -SP"C:\Users\Andres\Desktop\septimo ciclo\microprocesadores\trabajos en clases villa\programa 22 reloj a tiempo real\" "HIDRAULICA.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CString.mcl" "__Lib_Conversions.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Remigio Guevara\Dropbox\materias\microprocesadores y microcontroladores\sep2015_mar2016\compartir\clase\programa 18'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Andres\Dropbox\compartir\clase\programa 18'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Andres\Desktop\septimo ciclo\microprocesadores\trabajos en clases villa\programa 22 reloj a tiempo real'	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	HIDRAULICA.c
+warning: 41	1503	Result is not defined in function: 'interrupt'	HIDRAULICA.c
+warning: 60	1505	Suspicious pointer conversion	HIDRAULICA.c
+warning: 61	1505	Suspicious pointer conversion	HIDRAULICA.c
+diagnostics: 81	123	Compiled Successfully	HIDRAULICA.c
+diagnostics: 0	127	All files Compiled in 109 ms	 
+hint: 0	1144	Used RAM (bytes): 74 (21%)  Free RAM (bytes): 278 (79%)	Used RAM (bytes): 74 (21%)  Free RAM (bytes): 278 (79%)
+hint: 0	1144	Used ROM (program words): 1574 (19%)  Free ROM (program words): 6618 (81%)	Used ROM (program words): 1574 (19%)  Free ROM (program words): 6618 (81%)
+diagnostics: 0	125	Project Linked Successfully	HIDRAULICA_carrito.mcppi
+hint: 0	1004	COFF file successfully generated	COFF file successfully generated
+diagnostics: 0	128	Linked in 578 ms	 
+diagnostics: 0	129	Project 'HIDRAULICA_carrito.mcppi' completed: 734 ms	 
+diagnostics: 0	103	Finished successfully: 15 abr 2016, 09:46:56	HIDRAULICA_carrito.mcppi

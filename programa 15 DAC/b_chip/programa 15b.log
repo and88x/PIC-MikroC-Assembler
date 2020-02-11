@@ -1,0 +1,14 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4620 -GC -DL -O11111114 -fo8 -N"C:\Users\Remigio Guevara\Dropbox\materias\microcontroladores de gama alta\clase\programa 15 DAC\b_chip\programa 15b.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\Remigio Guevara\Dropbox\materias\microcontroladores de gama alta\clase\programa 15 DAC\b_chip\" "programa 15b.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_SPI_c345.mcl"	 
+hint: 0	1139	Available RAM: 3947 [bytes], Available ROM: 65536 [bytes]	 
+diagnostics: 0	126	All files Preprocessed in 31 ms	 
+diagnostics: 0	122	Compilation Started	programa 15b.c
+diagnostics: 56	123	Compiled Successfully	programa 15b.c
+hint: 20	1164	Variable 'temp' has been eliminated by optimizer	programa 15b.c
+diagnostics: 0	127	All files Compiled in 78 ms	 
+hint: 0	1144	Used RAM (bytes): 13 (1%)  Free RAM (bytes): 3934 (99%)	Used RAM (bytes): 13 (1%)  Free RAM (bytes): 3934 (99%)
+hint: 0	1144	Used ROM (bytes): 236 (1%)  Free ROM (bytes): 65300 (99%)	Used ROM (bytes): 236 (1%)  Free ROM (bytes): 65300 (99%)
+diagnostics: 0	125	Project Linked Successfully	programa 15b.mcppi
+hint: 0	1004	COFF file successfully generated	COFF file successfully generated
+diagnostics: 0	128	Linked in 235 ms	 
+diagnostics: 0	129	Project 'programa 15b.mcppi' completed: 375 ms	 
+diagnostics: 0	103	Finished successfully: 17 May. 2016, 08:06:18	programa 15b.mcppi

@@ -1,0 +1,37 @@
+Warning[205] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 14 : Found directive in column 1. (__CONFIG)
+Warning[205] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 15 : Found directive in column 1. (__CONFIG)
+Warning[205] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 17 : Found directive in column 1. (EXTERN)
+Warning[205] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 25 : Found directive in column 1. (UDATA)
+Warning[205] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 37 : Found directive in column 1. (PAGESEL)
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 38 : Found opcode in column 1. (goto)
+Warning[205] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 44 : Found directive in column 1. (PAGESEL)
+Warning[205] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 48 : Found directive in column 1. (CODE)
+Warning[205] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 61 : Found directive in column 1. (banksel)
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 62 : Found opcode in column 1. (clrf)
+Message[302] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 64 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 66 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 67 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 68 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 89 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 90 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 147 : Found opcode in column 1. (swapf)
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 148 : Found opcode in column 1. (andlw)
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 149 : Found opcode in column 1. (movwf)
+Message[305] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 153 : Using default destination of 1 (file).
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 155 : Found opcode in column 1. (swapf)
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 156 : Found opcode in column 1. (andlw)
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 157 : Found opcode in column 1. (movwf)
+Message[305] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 161 : Using default destination of 1 (file).
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 163 : Found opcode in column 1. (swapf)
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 164 : Found opcode in column 1. (andlw)
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 165 : Found opcode in column 1. (movwf)
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 226 : Found opcode in column 1. (btfss)
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 227 : Found opcode in column 1. (goto)
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 228 : Found opcode in column 1. (bcf)
+Warning[205] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 229 : Found directive in column 1. (banksel)
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 230 : Found opcode in column 1. (incf)
+Message[305] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 230 : Using default destination of 1 (file).
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 232 : Found opcode in column 1. (swapf)
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 233 : Found opcode in column 1. (andlw)
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 234 : Found opcode in column 1. (movwf)
+Warning[203] C:\USERS\ANDRES\DESKTOP\PROGRAMA4 - COPIA\PROGRAMA04.ASM 236 : Found opcode in column 1. (goto)

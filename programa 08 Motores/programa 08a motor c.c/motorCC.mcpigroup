@@ -1,0 +1,6 @@
+[PROJECTS]
+Count=2
+Project0=..\..\programa 07\programa7.mcppi
+Project1=motorCC.mcppi
+[ActiveProject]
+Index=1

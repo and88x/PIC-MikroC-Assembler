@@ -1,0 +1,28 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP16F887 -GC -DL -O11111114 -fo4 -N"C:\Users\Andres\Desktop\El resto\Pogramas MikroC\programa 13\df.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\" -SP"C:\Users\Andres\Desktop\El resto\Pogramas MikroC\programa 13\" "df.c" "__Lib_Soft_DS1307.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_SoftI2C.mcl"	 
+hint: 0	1139	Available RAM: 352 [bytes], Available ROM: 8192 [bytes]	 
+diagnostics: 0	122	Compilation Started	df.c
+diagnostics: 3	123	Compiled Successfully	df.c
+diagnostics: 0	122	Compilation Started	__Lib_Soft_DS1307.c
+error: 14	324	Undeclared identifier 'Soft_I2C_Wr' in expression	__Lib_Soft_DS1307.c
+error: 15	324	Undeclared identifier 'Soft_I2C_Wr' in expression	__Lib_Soft_DS1307.c
+error: 37	313	Too many actual parameters	__Lib_Soft_DS1307.c
+error: 42	324	Undeclared identifier 'Soft_I2C_Wr' in expression	__Lib_Soft_DS1307.c
+error: 43	324	Undeclared identifier 'Soft_I2C_Rd' in expression	__Lib_Soft_DS1307.c
+error: 44	324	Undeclared identifier 'Soft_I2C_Rd' in expression	__Lib_Soft_DS1307.c
+error: 45	324	Undeclared identifier 'Soft_I2C_Rd' in expression	__Lib_Soft_DS1307.c
+error: 46	324	Undeclared identifier 'Soft_I2C_Rd' in expression	__Lib_Soft_DS1307.c
+error: 47	324	Undeclared identifier 'Soft_I2C_Rd' in expression	__Lib_Soft_DS1307.c
+error: 48	324	Undeclared identifier 'Soft_I2C_Rd' in expression	__Lib_Soft_DS1307.c
+error: 49	324	Undeclared identifier 'Soft_I2C_Rd' in expression	__Lib_Soft_DS1307.c
+error: 70	324	Undeclared identifier 'Soft_I2C_Wr' in expression	__Lib_Soft_DS1307.c
+error: 71	324	Undeclared identifier 'Soft_I2C_Wr' in expression	__Lib_Soft_DS1307.c
+error: 72	324	Undeclared identifier 'Soft_I2C_Wr' in expression	__Lib_Soft_DS1307.c
+error: 73	324	Undeclared identifier 'Soft_I2C_Wr' in expression	__Lib_Soft_DS1307.c
+error: 74	324	Undeclared identifier 'Soft_I2C_Wr' in expression	__Lib_Soft_DS1307.c
+error: 75	324	Undeclared identifier 'Soft_I2C_Wr' in expression	__Lib_Soft_DS1307.c
+error: 76	324	Undeclared identifier 'Soft_I2C_Wr' in expression	__Lib_Soft_DS1307.c
+error: 77	324	Undeclared identifier 'Soft_I2C_Wr' in expression	__Lib_Soft_DS1307.c
+hint: 36	1163	Variable 'HV' has been declared, but not used	__Lib_Soft_DS1307.c
+hint: 36	1163	Variable 'LV' has been declared, but not used	__Lib_Soft_DS1307.c
+error: 80	312	Internal error ''	__Lib_Soft_DS1307.c
+error: 0	102	Finished (with errors): 22 abr 2016, 11:02:18	df.mcppi

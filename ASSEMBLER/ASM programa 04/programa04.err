@@ -1,0 +1,29 @@
+Warning[205] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 14 : Found directive in column 1. (__CONFIG)
+Warning[205] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 15 : Found directive in column 1. (__CONFIG)
+Warning[205] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 17 : Found directive in column 1. (EXTERN)
+Warning[205] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 18 : Found directive in column 1. (EXTERN)
+Warning[205] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 37 : Found directive in column 1. (UDATA)
+Warning[205] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 49 : Found directive in column 1. (PAGESEL)
+Warning[203] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 50 : Found opcode in column 1. (goto)
+Warning[205] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 56 : Found directive in column 1. (PAGESEL)
+Warning[205] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 60 : Found directive in column 1. (CODE)
+Message[302] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 75 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 77 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 78 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 79 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 100 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[203] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 150 : Found opcode in column 1. (swapf)
+Warning[203] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 151 : Found opcode in column 1. (andlw)
+Warning[203] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 152 : Found opcode in column 1. (movwf)
+Warning[204] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 153 : Found pseudo-op in column 1. (movfw)
+Warning[203] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 154 : Found opcode in column 1. (andlw)
+Warning[203] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 155 : Found opcode in column 1. (movwf)
+Warning[203] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 157 : Found opcode in column 1. (swapf)
+Warning[203] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 158 : Found opcode in column 1. (andlw)
+Warning[203] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 159 : Found opcode in column 1. (movwf)
+Warning[204] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 160 : Found pseudo-op in column 1. (movfw)
+Warning[203] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 161 : Found opcode in column 1. (andlw)
+Warning[203] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 162 : Found opcode in column 1. (movwf)
+Warning[203] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 164 : Found opcode in column 1. (swapf)
+Warning[203] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 165 : Found opcode in column 1. (andlw)
+Warning[203] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 04\PROGRAMA04.ASM 166 : Found opcode in column 1. (movwf)

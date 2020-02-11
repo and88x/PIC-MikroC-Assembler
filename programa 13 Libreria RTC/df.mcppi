@@ -1,0 +1,53 @@
+[DEVICE]
+Name=P16F887
+Clock=4000000
+[MEMORY_MODEL]
+Value=0
+[BUILD_TYPE]
+Value=0
+[ACTIVE_TAB]
+Value=..\..\trabajo2 beta\Proyecto2.c
+[USE_EEPROM]
+Value=0
+[USE_HEAP]
+Value=0
+[HEAP_SIZE]
+Value=0
+[EEPROM_DEFINITION]
+Value=
+[FILES]
+Count=2
+File0=df.c
+File1=..\..\..\..\..\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\__Lib_Soft_DS1307.c
+[BINARIES]
+Count=0
+[IMAGES]
+Count=0
+ActiveImageIndex=-1
+[OPENED_FILES]
+Count=2
+File0=df.c
+File1=..\..\trabajo2 beta\Proyecto2.c
+[EEPROM]
+Count=0
+[ACTIVE_COMMENTS_FILES]
+Count=0
+[OTHER_FILES]
+Count=0
+[SEARCH_PATH]
+Count=3
+Path0=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\
+Path1=C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Uses\P16\
+Path2=C:\Users\Andres\Desktop\El resto\Pogramas MikroC\programa 13\
+[HEADER_PATH]
+Count=0
+[HEADERS]
+Count=0
+[PLDS]
+Count=0
+[Useses]
+Count=1
+File0=Software_I2C
+[EXPANDED_NODES]
+Node0=Sources
+Count=1

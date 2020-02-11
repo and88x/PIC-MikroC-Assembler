@@ -1,0 +1,6 @@
+Warning[205] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 05\HEX2BSD.ASM 15 : Found directive in column 1. (GLOBAL)
+Warning[205] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 05\HEX2BSD.ASM 23 : Found directive in column 1. (UDATA)
+Warning[205] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 05\HEX2BSD.ASM 26 : Found directive in column 1. (CODE)
+Message[305] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 05\HEX2BSD.ASM 55 : Using default destination of 1 (file).
+Message[305] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 05\HEX2BSD.ASM 61 : Using default destination of 1 (file).
+Warning[205] C:\USERS\ANDRES\DESKTOP\EL RESTO\PROGRAMA 05\HEX2BSD.ASM 125 : Found directive in column 1. (end)

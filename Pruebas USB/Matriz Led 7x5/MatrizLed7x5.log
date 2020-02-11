@@ -1,0 +1,22 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F4550 -GC -DL -O11111114 -fo48 -N"C:\Users\Andres\Desktop\El resto\Pogramas MikroC\EjemplosMios\Matriz Led 7x5\MatrizLed7x5.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\Andres\Desktop\El resto\Pogramas MikroC\EjemplosMios\Matriz Led 7x5\" -SP"C:\Users\Andres\Desktop\osa-RTOS\" "MatrizLed7x5.c" "osa.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl"	 
+hint: 0	1139	Available RAM: 2027 [bytes], Available ROM: 32768 [bytes]	 
+diagnostics: 0	122	Compilation Started	MatrizLed7x5.c
+hint: 78	1163	Variable 'res' has been declared, but not used	MatrizLed7x5.c
+diagnostics: 105	123	Compiled Successfully	MatrizLed7x5.c
+error: 37	304	 error: Can't open include file "osa.h"     #include <OSA.h>	C:\Users\Andres\Desktop\osa-RTOS\osa.c
+error: 13	304	 error:  #error "OSA error #1: Unknown compiler!"       #error "OSA error #1: Unknown compiler!"     from C:/Users/Andres/Desktop/osa-RTOS/osa.c: 144:    #include "port\osa_include.c" 2 errors in preprocessor.	c:\users\andres\desktop\osa-rtos\port\osa_include.c
+diagnostics: 0	122	Compilation Started	osa.c
+error: 55	402	; expected, but 'OST_SYSTEM_FLAGS' found	osa.c
+error: 55	402	; expected, but '_OS_Flags' found	osa.c
+error: 56	402	; expected, but 'OST_WORD' found	osa.c
+error: 56	393	'OS_RAM_NEAR' Identifier redefined	osa.c
+error: 56	402	; expected, but '_OS_Temp' found	osa.c
+error: 63	402	; expected, but 'OST_WORD' found	osa.c
+error: 63	393	'OS_RAM_NEAR' Identifier redefined	osa.c
+error: 63	402	; expected, but '_OS_TempH' found	osa.c
+error: 63	393	'OST_WORD' Identifier redefined	osa.c
+error: 74	402	; expected, but 'OS_RAM_NEAR' found	osa.c
+error: 74	402	; expected, but 'volatile' found	osa.c
+error: 74	393	'OS_RAM_NEAR' Identifier redefined	osa.c
+error: 74	312	Internal error ''	osa.c
+error: 0	102	Finished (with errors): 18 ago 2016, 14:52:09	MatrizLed7x5.mcppi
