@@ -211,7 +211,53 @@ void oled_digits (unsigned char nums);
 void oled_version (void);
 void check_footswitch (void);
 
+//--------------------------------------------------------------
+//---------------- Changes 
+// const float VCC   = 5.0;  // supply voltage 5V or 3.3V
+// float cutOffLimit = 1.0;  // reading cutt off current. 1.0 is 1 Amper
+const int model   = 6;    // enter the model (see below) 
+/*    "ACS758LCB-050B" -> for model use 0
+      "ACS758LCB-050U" -> for model use 1
+      "ACS758LCB-100B" -> for model use 2
+      "ACS758LCB-100U" -> for model use 3
+      "ACS758KCB-150B" -> for model use 4
+      "ACS758KCB-150U" -> for model use 5
+      "ACS758ECB-200B" -> for model use 6
+      "ACS758ECB-200U" -> for model use  7     
+      */
+/* float sensitivity[] ={
+          40.0,   // mV/A for ACS758LCB-050B
+          60.0,   // mV/A for ACS758LCB-050U
+          20.0,   // mV/A for ACS758LCB-100B
+          40.0,   // mV/A for ACS758LCB-100U
+          13.3,   // mV/A for ACS758KCB-150B
+          16.7,   // mV/A for ACS758KCB-150U
+          10.0,   // mV/A for ACS758ECB-200B
+          20.0,   // mV/A for ACS758ECB-200U     
+         }; */
+float quiescent_Output_voltage [] ={
+          0.5,    // for ACS758LCB-050B
+          0.12,   // for ACS758LCB-050U
+          0.5,    // for ACS758LCB-100B
+          0.12,   // for ACS758LCB-100U
+          0.5,    // for ACS758KCB-150B
+          0.12,   // for ACS758KCB-150U
+          0.5,    // for ACS758ECB-200B
+          0.12,   // for ACS758ECB-200U            
+          };     
+/*         
+ *   quiescent Output voltage is factor for VCC that appears at output when the current is zero.    
+ *   for Bidirectional sensor it is 0.5 x VCC
+ *   for Unidirectional sensor it is 0.12 x VCC
+ *   for model ACS758LCB-050B, the B at the end represents Bidirectional (polarity doesn't matter)
+ *   for model ACS758LCB-100U, the U at the end represents Unidirectional (polarity must match)
+ */
+// const float FACTOR     = sensitivity[model]/1000; // set sensitivity for selected model
+const unsigned int QOV = quiescent_Output_voltage[model] * 1024; // set quiescent Output voltage
+// float cutOff           = FACTOR/cutOffLimit;      // convert current cut off to mV
+// float voltage;  
 
+//--------------------------------------------------------------
 void main(void)
 {
 unsigned int loopcounter;
@@ -1660,14 +1706,23 @@ unsigned int iadc_sample;
 
     while (ADCON0bits.GO != 0) ;   // wait here for conversion to complete
 
-    iadc_sample = (unsigned int)((ADRESH & 0x03) << 8);
-    iadc_sample += (unsigned int)(ADRESL);  // adc_sample is in range 0-0x3ff            //ukupan semple magnitude je 1023 (3ff)
+    iadc_sample  = (unsigned int)((ADRESH & 0x03) << 8);
+    iadc_sample += (unsigned int)(ADRESL);  // adc_sample is in range 0-0x3ff            
+                                            //ukupan semple magnitude je 1023 (3ff)
 
     ADCON0bits.CHS =  adc_channel;   // restore channel of background adc conversion
-    ADCON0bits.GO = 1;               // and restart conversion for background task
-// iadc_sample is 0 - 0x3ff, current flowing is zero at midrange
-    if (iadc_sample >= 0x0200) iadc_sample -= 0x0200;   // 0x0200 je 512
-    else iadc_sample = (0x01ff - iadc_sample);          // current magnitude is 0 - 0x1ff magnitude is 511(1ff)
+    ADCON0bits.GO  = 1;              // and restart conversion for background task
+
+    // iadc_sample is 0 - 0x3ff, current flowing is zero at midrange
+    if (iadc_sample >= QOV) {  
+        iadc_sample -= QOV;   
+    } else {
+      // current magnitude is 0 - 0x1ff magnitude is 511(1ff) = QOV-1 = 512-1
+        iadc_sample = QOV -1 -iadc_sample;
+    }
+
+    // if (iadc_sample >= 0x0200) 
+    // else iadc_sample = (0x01ff - iadc_sample);          
 
     current_sample = iadc_sample; // save in current_sample
 
